@@ -1,0 +1,22 @@
+/* src/components/Product360View.css */
+.product-360-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    overflow: hidden;
+    cursor: grab;
+  }
+  
+  .product-360-view:active {
+    cursor: grabbing;
+  }
+  
+  .product-360-view img {
+    width: 100%;
+    height: auto;
+    user-select: none; /* Disable text selection */
+    pointer-events: none; /* Disable mouse events on image */
+  }
+  
